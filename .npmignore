@@ -1,0 +1,6 @@
+src/
+test/
+.gitignore
+.gitattributes
+.npmignore
+.babelrc
