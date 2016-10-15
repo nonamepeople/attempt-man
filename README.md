@@ -24,7 +24,7 @@ const Attempter = require('attempt-man').Attempter;
 
 If an exception is thrown in the callback function, it will keep start a new attempt within the allowed range.
 
-We create and run an attempt with setting the maximum allowed attempts to `5`.
+Create and run an attempt and allow the attempts up to `5` times:
 
 ~~~js
 let counter = 0;
