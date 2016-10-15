@@ -40,7 +40,7 @@ new Attempter(5).run(() => {
 // => 'Hello World! Counter: 3';
 ~~~
 
-Here we can see the callback function has been executed thress times.
+Here we see that the function was successfully executed at the third time.
 
 > Note: The `Attempter.run()` method is returns a Promise.
 > The attempts will not be continued when there was no exception throws in the last attempt.

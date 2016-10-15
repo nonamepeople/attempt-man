@@ -1,6 +1,6 @@
 {
   "name": "attempt-man",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Beautifully manage attempts for your process!",
   "main": "dist/index.js",
   "scripts": {
