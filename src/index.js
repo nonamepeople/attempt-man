@@ -1,4 +1,4 @@
-import AttemptsFailed from './exceptions/attempts-failed';
+import AttemptsFailedError from './exceptions/attempts-failed';
 import Attempter from './attempter';
 
-export { AttemptsFailed, Attempter };
+export { AttemptsFailedError, Attempter };
