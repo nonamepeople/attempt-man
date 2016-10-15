@@ -12,12 +12,6 @@ Install via npm:
 
 	npm install attempt-man
 
-Import the `Attempt` class: 
-
-~~~js
-const Attempter = require('attempt-man').Attempter;
-~~~
-
 ## Usage
 
 ### Create Attempt
@@ -27,7 +21,9 @@ If an exception is thrown in the callback function, it will keep start a new att
 Create and run an attempt and allow the attempts up to `5` times:
 
 ~~~js
-let counter = 0;
+const Attempter = require('attempt-man').Attempter;
+
+var counter = 0;
 
 new Attempter(5).run(() => {
 	if (++counter <= 2) throw new Error();
